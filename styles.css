@@ -1,22 +1,41 @@
 body {
-color: white;
-background-color:  black;
-margin: 0px;
-font-family: "Chackra Petch", sans-serif;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    font-family: "Chackra Petch", sans-serif;
 }
+
 header {
     border-bottom: solid 2 px rgb(8, 102, 53);
     padding: 20px;
     font-size: 32px;
     color: rgb(8, 102, 53);
 }
+
 .chamada {
-    background: rgb(12, 1339, 67);
+    background: rgb(187, 33, 128);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
     justify-content: center;
 }
+
 .chamada-texto {
     margin-right: 5%;
 }
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria-videos img {}
