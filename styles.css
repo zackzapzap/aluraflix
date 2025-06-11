@@ -4,3 +4,9 @@ background-color:  black;
 margin: 0px;
 font-family: "Chackra Petch", sans-serif;
 }
+header {
+    border-bottom: solid 2 px rgb(8, 102, 53);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(8, 102, 53);
+}
