@@ -1,6 +1,6 @@
 body {
     color: white;
-    background-color: black;
+    background: black;
     margin: 0px;
     font-family: "Chackra Petch", sans-serif;
 }
@@ -8,8 +8,12 @@ body {
 header {
     border-bottom: solid 2 px rgb(238, 140, 194);
     padding: 20px;
-    font-size: 32px;
+    font-size: 20px;
     color: rgb(238, 140, 194);
+}
+
+.chamada-texto {
+    margin-right: 5%;
 }
 
 .chamada {
@@ -18,10 +22,6 @@ header {
     padding-top: 80px;
     display: flex;
     justify-content: center;
-}
-
-.chamada-texto {
-    margin-right: 5%;
 }
 
 h1 {
